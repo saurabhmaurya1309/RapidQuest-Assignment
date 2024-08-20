@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 // const API_URL = 'http://localhost:5000/api';
-const API_URL=  'https://rapidquest-assignment.onrender.comfddf'
+const API_URL=  'https://rapidquest-assignment.onrender.com'
+              
 
 
 export const getCustomers = () => axios.get(`${API_URL}/customers`);
